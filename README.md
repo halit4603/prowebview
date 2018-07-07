@@ -18,7 +18,7 @@ And add this dependence to the app-level gradle:
 
 ```gradle
 dependencies {
-    compile 'com.github.vic797:prowebview:VERSION'
+    implementation 'com.github.vic797:prowebview:VERSION'
 }
 ```
 
@@ -27,6 +27,8 @@ Please refer to the [wiki](https://github.com/vic797/prowebview/wiki) to know ho
 
 ## Contribute
 ProWebView has a lot of features and not all of that features have been tested exhaustively; please report any bug you find. Thanks!
+
+If you want to help with translations pull a request with a modified [strings.xml](https://github.com/vic797/prowebview/blob/master/library/src/main/res/values/strings.xml) and I will add the translation to the library. 
 
 ## Licence
 
